@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux",
+  "packages": {
+    "fastapi": "0.141.1",
+    "uvicorn": "0.52.1",
+    "openai": "2.54.0",
+    "httpx": "0.28.1",
+    "pytest": "9.1.1"
+  },
+  "csv_sha256": "373339b71a8935d69e9af0abf26a70744632119862eeb3919efb389a7b749c60",
+  "default_model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "none",
+  "live_paid_api": "NOT RUN",
+  "windows_execution": "NOT RUN",
+  "template_status": 200,
+  "clean_venv_install": "PASS"
+}

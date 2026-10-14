@@ -1,0 +1,168 @@
+{
+  "mode": "template",
+  "ai_generated": false,
+  "model": null,
+  "review_required": true,
+  "facts": {
+    "source": "https://doi.org/10.24432/C5F62R",
+    "period_start": "2017-12-01",
+    "period_end": "2018-11-30",
+    "raw_rows": 8760,
+    "excluded_non_operating_rows": 295,
+    "included_rows": 8465,
+    "filter": "Functioning Day == Yes",
+    "metric": "시간대별 평균 대여 건수",
+    "unit": "건/관측 시간",
+    "peak_hours": [
+      18
+    ],
+    "hourly": [
+      {
+        "hour": 0,
+        "rental_total": 197633,
+        "observations": 352,
+        "mean_rentals": 561.46
+      },
+      {
+        "hour": 1,
+        "rental_total": 155557,
+        "observations": 352,
+        "mean_rentals": 441.92
+      },
+      {
+        "hour": 2,
+        "rental_total": 110095,
+        "observations": 352,
+        "mean_rentals": 312.77
+      },
+      {
+        "hour": 3,
+        "rental_total": 74216,
+        "observations": 352,
+        "mean_rentals": 210.84
+      },
+      {
+        "hour": 4,
+        "rental_total": 48396,
+        "observations": 352,
+        "mean_rentals": 137.49
+      },
+      {
+        "hour": 5,
+        "rental_total": 50765,
+        "observations": 352,
+        "mean_rentals": 144.22
+      },
+      {
+        "hour": 6,
+        "rental_total": 104961,
+        "observations": 352,
+        "mean_rentals": 298.18
+      },
+      {
+        "hour": 7,
+        "rental_total": 221192,
+        "observations": 353,
+        "mean_rentals": 626.61
+      },
+      {
+        "hour": 8,
+        "rental_total": 370731,
+        "observations": 353,
+        "mean_rentals": 1050.23
+      },
+      {
+        "hour": 9,
+        "rental_total": 235784,
+        "observations": 353,
+        "mean_rentals": 667.94
+      },
+      {
+        "hour": 10,
+        "rental_total": 192655,
+        "observations": 353,
+        "mean_rentals": 545.76
+      },
+      {
+        "hour": 11,
+        "rental_total": 219311,
+        "observations": 353,
+        "mean_rentals": 621.28
+      },
+      {
+        "hour": 12,
+        "rental_total": 255296,
+        "observations": 353,
+        "mean_rentals": 723.22
+      },
+      {
+        "hour": 13,
+        "rental_total": 267635,
+        "observations": 353,
+        "mean_rentals": 758.17
+      },
+      {
+        "hour": 14,
+        "rental_total": 276971,
+        "observations": 353,
+        "mean_rentals": 784.62
+      },
+      {
+        "hour": 15,
+        "rental_total": 302653,
+        "observations": 353,
+        "mean_rentals": 857.37
+      },
+      {
+        "hour": 16,
+        "rental_total": 339677,
+        "observations": 353,
+        "mean_rentals": 962.26
+      },
+      {
+        "hour": 17,
+        "rental_total": 415556,
+        "observations": 353,
+        "mean_rentals": 1177.21
+      },
+      {
+        "hour": 18,
+        "rental_total": 548568,
+        "observations": 353,
+        "mean_rentals": 1554.02
+      },
+      {
+        "hour": 19,
+        "rental_total": 436229,
+        "observations": 353,
+        "mean_rentals": 1235.78
+      },
+      {
+        "hour": 20,
+        "rental_total": 390172,
+        "observations": 353,
+        "mean_rentals": 1105.3
+      },
+      {
+        "hour": 21,
+        "rental_total": 376479,
+        "observations": 353,
+        "mean_rentals": 1066.51
+      },
+      {
+        "hour": 22,
+        "rental_total": 336821,
+        "observations": 353,
+        "mean_rentals": 954.17
+      },
+      {
+        "hour": 23,
+        "rental_total": 244961,
+        "observations": 353,
+        "mean_rentals": 693.94
+      }
+    ],
+    "caution": "대여 건수는 고유 이용자 수가 아니다. 관찰 자료로 원인이나 현재 현황을 단정할 수 없다."
+  },
+  "article": "[사전 점검용 고정 문장 · AI 미호출]\n2017-12-01~2018-11-30 자료에서 비운영 295행을 제외하고 계산했다. 18시 평균 대여 건수는 548,568 ÷ 353 = 1,554.02건이다. 이는 고유 이용자 수가 아니며, 시간대별 차이의 원인은 이 계산만으로 알 수 없다. 출처: UCI Seoul Bike Sharing Demand (https://doi.org/10.24432/C5F62R)"
+}

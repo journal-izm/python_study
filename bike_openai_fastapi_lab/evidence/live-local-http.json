@@ -1,0 +1,21 @@
+{
+  "template": {
+    "status": 200
+  },
+  "wrong": {
+    "status": 422
+  },
+  "openai": {
+    "status": 503
+  },
+  "/": {
+    "status": 200
+  },
+  "/docs": {
+    "status": 200
+  },
+  "/openapi.json": {
+    "status": 200
+  },
+  "note": "실제 로컬 Uvicorn HTTP 점검. OpenAI 호출은 키 없음(503)으로 중단되었고 유료 생성은 하지 않음."
+}

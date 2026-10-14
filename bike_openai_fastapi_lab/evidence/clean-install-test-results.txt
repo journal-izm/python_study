@@ -1,0 +1,10 @@
+검증 기록: 경고에 포함된 검증 장비 경로만 생략했습니다.
+
+.......................                                                  [100%]
+=============================== warnings summary ===============================
+fastapi/testclient.py:1
+  fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+23 passed, 1 warning in 7.32s

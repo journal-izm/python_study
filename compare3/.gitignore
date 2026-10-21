@@ -1,0 +1,5 @@
+.env
+.venv/
+results.jsonl
+compare_report.html
+__pycache__/
